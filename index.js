@@ -29,4 +29,6 @@ function removefirstDriver() {
   return drivers.slice(1);
 }
 
-function 
+function removeLastDriver () {
+  return drivers.slice();
+}
